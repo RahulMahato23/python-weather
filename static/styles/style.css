@@ -21,3 +21,27 @@ input, button {
     padding: 1rem;
     border-radius: 10px;
 }
+
+@media screen  and (max-width: 640px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    input {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    button {
+        align-self: center;
+        font-size: 1.5rem;
+    }
+
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
